@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap');
+.App{
+    min-height: 100vh;
+    display: flex;
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Hide scrollbar for webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Hide scrollbar for Firefox */
+* {
+    scrollbar-width: none;
+}
+
+/* Additional styling for chat container to ensure scrollbar is hidden */
+.chat-list-container {
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.chat-list-container::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
