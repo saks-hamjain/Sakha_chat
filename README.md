@@ -49,6 +49,7 @@ npm run server
 npm start
 Make sure to create your own .env file in both frontend/ and backened/ with the required keys.
 
+
 🌐 Live Features (Planned or Implemented)
 ✅ User authentication
 
